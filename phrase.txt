@@ -1,0 +1,26 @@
+Algorithm compteur
+var  
+car : caractere;
+nbrem, i, nbrec, nbrev : entier;
+Debut
+ecrire "donner une phrase"
+lire car
+nbrem = 0
+pour i=1 a c 
+    si car = " " alors
+    nbrem = nbrem + 1
+    finsi
+afficher "le nombre de mot est", nbrem + 1  
+
+nbrec = 0
+while car # "." ;
+car = car + 1
+afficher "le nombre de caracter est", car + 1
+
+nbrev = 0
+pour i = 1 a car
+    si Si car = "a" ou car = "e" ou car = "i" ou car = "o"  ou car = "u" ou car = "y" Alors
+    nbrev = nbrev + 1
+    finsi
+afficher"le nombre de voyelle est", nbrev + 1
+Fin

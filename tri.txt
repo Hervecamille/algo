@@ -1,0 +1,25 @@
+programme tri_par_insertion
+VAR
+i, j : nombre entier
+DEBUT
+  FOR i FROM 0 TO i-1   DO  
+  i := 0;
+  j := 0;
+
+  WHILE (i < j) DO
+
+      IF (L[i] <= R[j]) THEN
+
+
+          i := i+1;
+
+       ELSE
+
+          j := j+1;       
+
+      END_IF
+
+  END_WHILE
+
+  END_FOR
+FIN  
